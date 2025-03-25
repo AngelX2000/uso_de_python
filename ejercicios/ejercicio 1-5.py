@@ -11,7 +11,8 @@ descriptivo con la comprobación de la división.
 x= 125//5
 print(x)
 
-print("la comprobacion es igual a 5*25+0 "
-"lo que nos debe dar como resultado el dividendo inicial")
 comprobacion=5*25+0
-print(comprobacion)
+print("la comprobacion es igual a 5*25+0 "
+"lo que nos debe dar como resultado el dividendo inicial: ", comprobacion)
+
+
