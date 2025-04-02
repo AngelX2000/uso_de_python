@@ -99,7 +99,20 @@ son inmutables,
 se almacenan distintos tipos de datos
 '''
 tupla_1=(1,1,1,1,1,1,1,1,"b", True)
-print(type(tupla_1))
-print(tupla_1.count("b"))
+#print(type(tupla_1))
+#print(tupla_1.count("b"))
 
-print(tupla_1.index("b"))
+#print(tupla_1.index("b"))
+
+
+
+'''
+uso de diccionarios
+{clave:valor}
+'''
+
+estudiantes={"andres ":25, "jose ":22, "diana ":26}
+print(estudiantes.keys())
+print(estudiantes.values())
+print(estudiantes.pop("diana "))  #pop elimina la clave "diana " y retorna el value correspondiente
+print(estudiantes)

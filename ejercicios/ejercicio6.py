@@ -15,8 +15,13 @@ a=int(input("ingresa un numero entero"))
 
 lista_1=[x,y,c,b,a]
 print(lista_1)
-print(lista_1[::-1])
+print(lista_1[::-1])   #es lo mismo que la funcion lista_1.reverse()
 suma=sum(lista_1)
 print("la suma de los numeros es:", suma)
+lista_1.sort()
+print(lista_1)
+lista_1.sort(reverse=True) #la funcion sort ordena la lista en forma ascendente:  junto con la funcion reverse=true la organiza de forma descendente, y reverse=false ascendente.
+print(lista_1)
+
 
 
